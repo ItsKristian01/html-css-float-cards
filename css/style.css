@@ -14,7 +14,7 @@ body {
 }
 /* CONTAINER */
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 /* CONTAINER */
@@ -22,18 +22,18 @@ body {
 h1 {
     font-size: 2rem;
     margin-top: 2rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
     text-align: center;
     color: hsl(339deg 77.59% 54.51%);;
 }
 
 p{
-    margin-left: 1.3rem;
+    text-align: center;
     font-size: 1.1rem;
 }
 
 span {
-    margin-left: 13rem;
+    margin-left: 10rem;
 }
 /* Text centering */
 
@@ -55,8 +55,11 @@ span {
 
 h3, h4{
     color: white;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 1.5;
+    text-align: left;
+    margin-left: 110px;
+
 }
 
 .email {
