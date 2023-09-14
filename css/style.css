@@ -39,33 +39,32 @@ span {
 
 .column {
     margin-top: 30px;
-    float: left;
-    width: calc(100% / 3);
-    border: 3px solid black;
-    height: 100px;
-    background-color: black;
+    width: 65rem;
+    padding: 0px 30px;
+    text-align: left;
+    background-color:black
+     /* Debug */
+    /* border: 3px solid black;
+    height: 100px; */
+    /* Debug */
 }
 
 .column img{
-    height: 95px;
-}
-
-.float {
-    display: inline-block;
-    margin-right: 50px;
-    margin-top: 10px;
-    float: right;
-    text-align: left;
+    height: 90px;
 }
 
 h3, h4{
     color: white;
     margin-bottom: 5px;
+    font-size: 1.5;
 }
 
 .email {
     color: hsl(196.39deg 81.03% 49.61%);
 }
 
-
-
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
