@@ -28,12 +28,12 @@ h1 {
 }
 
 p{
-    margin-left: 3rem;
-    font-size: 1rem;
+    margin-left: 1.3rem;
+    font-size: 1.1rem;
 }
 
 span {
-    margin-left: 11rem;
+    margin-left: 13rem;
 }
 /* Text centering */
 
@@ -41,15 +41,31 @@ span {
     margin-top: 30px;
     float: left;
     width: calc(100% / 3);
-    border: 1px solid black;
-    height: 85px;
+    border: 3px solid black;
+    height: 100px;
+    background-color: black;
 }
 
 .column img{
-    height: 85px;
+    height: 95px;
 }
 
+.float {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 10px;
+    float: right;
+    text-align: left;
+}
 
+h3, h4{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.email {
+    color: hsl(196.39deg 81.03% 49.61%);
+}
 
 
 
