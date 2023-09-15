@@ -38,9 +38,11 @@ span {
 /* Text centering */
 
 .column {
-    float: left;
-    width: calc(100 / 3);
-  
+    margin-top: 30px;
+    width: 65rem;
+    padding: 0px 30px;
+    text-align: left;
+    background-color:black
      /* Debug */
     /* border: 3px solid black;
     height: 100px; */
@@ -48,27 +50,29 @@ span {
 }
 
 .column img{
-    height: 90px;
+    height: 95px;
+}
+
+.float {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 10px;
+    float: right;
+    text-align: left;
 }
 
 h3, h4{
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 1.5;
-    text-align: left;
-    margin-left: 110px;
-
 }
 
 .email {
     color: hsl(196.39deg 81.03% 49.61%);
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+
+
 
 .card {
     float: left;
