@@ -38,11 +38,9 @@ span {
 /* Text centering */
 
 .column {
-    margin-top: 30px;
-    width: 65rem;
-    padding: 0px 30px;
-    text-align: left;
-    background-color:black
+    float: left;
+    width: calc(100 / 3);
+  
      /* Debug */
     /* border: 3px solid black;
     height: 100px; */
@@ -70,4 +68,8 @@ h3, h4{
     content: "";
     clear: both;
     display: table;
+}
+
+.card {
+    float: left;
 }
